@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Semper Discens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header dark">
+  <a class="logo" href="index.html">Semper Discens</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="posts.html">Posts</a>
+  </nav>
+</header>
+
+<section class="contact" id="contact">
+  <img class="contact-img" src="images/contact.jpg" alt="">
+  <div>
+    <h2>Contact with us</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      Name
+      <div class="row">
+        <label>First Name <small>(required)</small><input name="first_name" required></label>
+        <label>Last Name <small>(required)</small><input name="last_name" required></label>
+      </div>
+      <label>Email <small>(required)</small><input type="email" name="email" required></label>
+      <label>Message <small>(required)</small><textarea name="message" required></textarea></label>
+      <button class="btn btn-white" type="submit">Send</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="heading">Semper Discens</div>
+  <h4>Contact</h4>
+  <p>Gmail: <a href="mailto:semperdiscens22@gmail.com">semperdiscens22@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
